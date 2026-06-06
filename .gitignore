@@ -1,0 +1,20 @@
+# Авторизация и личные данные — никогда не коммитить
+max_login_token.txt
+max_exports/
+*.bin
+
+# Оригинал с настоящим номером — в репозиторий не попадает (публикуется только sansmax.py)
+test5.py
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# Локальные настройки Claude Code
+.claude/
